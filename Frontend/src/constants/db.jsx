@@ -2,24 +2,31 @@ import quemSomos from "/assets/posts/quem-somos.png";
 
 // icones
 import Acasa from "/assets/posts/a-casa.png";
-import reciclagem from "/assets/posts/reciclagem.png";
-import mao from "/assets/posts/mao.png";
-import urso from "/assets/posts/urso.png";
-import educar from "/assets/posts/educar.png";
-import blusa from "/assets/posts/blusa.png";
 import alimente from "/assets/posts/alimente.png";
+import blusa from "/assets/posts/blusa.png";
 import casa from "/assets/posts/casa.png";
+import educar from "/assets/posts/educar.png";
+import mao from "/assets/posts/mao.png";
+import reciclagem from "/assets/posts/reciclagem.png";
+import urso from "/assets/posts/urso.png";
 
 // depoimento
-import agasalho from "/assets/Video/AgasalhoAmoreVida.mp4";
 import acolhido from "/assets/Video/AcolhidoAmoreVida.mp4";
+import agasalho from "/assets/Video/AgasalhoAmoreVida.mp4";
 
 // Diretoria e gestão
-import cecilia from "/assets/img/diretoria/CECILIA ALVES.png";
+import unk from "/assets/img/Vector.svg";
 import ayran from "/assets/img/diretoria/AYRAN ANDRADE.jpg";
+import cecilia from "/assets/img/diretoria/CECILIA ALVES.png";
 import poliana from "/assets/img/diretoria/POLIANA OLIVEIRA.jpg";
 import selma from "/assets/img/diretoria/SELMA GONÇALVES.jpg";
-import unk from "/assets/img/Vector.svg";
+
+// Accordion
+import alimentos from "/assets/icons/alimentos.svg";
+import recicle from "/assets/icons/reciclagem.svg";
+import cabide from "/assets/icons/cabide.svg";
+import tempo from "/assets/icons/tempo.svg";
+import money from "/assets/icons/money.svg";
 
 export const homepage = {
   titulo: "Quem somos",
@@ -37,7 +44,7 @@ export const about = {
   texto: [
     "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos, visando capacitá-los para retornar ao mercado de trabalho e se tornarem independentes. Aos poucos, com muito trabalho, o projeto foi ganhando visibilidade e recebendo mais parceiros.",
     "Em 24 de agosto de 2019 foi inaugurado o Galpão de Reciclagem Amor e Vida, com o objetivo de proporcionar dignidade e emancipação de pessoas em situação de rua, catadores de materiais recicláveis, carroceiros, e pessoas em vulnerabilidade social. Os recursos financeiros adquiridos através das doações de recicláveis permitem manter a casa de acolhimento e demais atividades. Após o advento da covid-19, o galpão se tornou um centro de capacitação para pessoas em vulnerabilidade, com oficinas e distribuição de alimentos, além de desenvolver o importante papel da reciclagem. Atualmente o projeto se mantem através de doações financeiras, de alimentos, parcerias, materiais recicláveis, e comercialização de produtos. Hoje podemos dizer que nosso projeto se tornou ambiental, social e econômico!",
-  ]
+  ],
 };
 
 export const posts = [
@@ -199,5 +206,114 @@ export const managements = [
     nome: "Selma Golçalves",
     imagem: selma,
     cargo: "Jornalista",
-  }
+  },
+];
+
+export const accordion = [
+  {
+    id: 20,
+    icon: alimentos,
+    cat: "Alimentos",
+    type: "Campanha",
+    title: "Alimente uma vida",
+    paragraphs: (
+      <div className="grid gap-y-4">
+        <p>Campanha Alimente uma vida onde a sua solidariedade é um prato cheio.</p>
+        <p>Você pode ajudar a colocar comida na mesa de muitas familias que estão sem o básico!</p>
+        <p>Doe itens de cesta básica, verduras, frutas, itens de higiene entre outros.</p>
+        <p>Traga a sua doação ao nosso Galpão: Av. Ovídio de Abreu, 419, Centro - Montes Claros/MG, 39400-068, de segunda à sexta entre 8h às 17h e aos sábados entre 8h às 12 horas. Ou deixar com algum de nossos voluntários nos supermercados Bretas e Villefort.</p>
+      </div>
+    )
+  },
+
+  {
+    id: 21,
+    icon: recicle,
+    cat: "Recicláveis",
+    type: "Projeto",
+    title: "Recicle conosco",
+    color: "red",
+    paragraphs: (
+      <div className="grid gap-y-4">
+        <p>O projeto reciclagem é vinculado a casa de acolhimento de forma a gerar renda e autonomia aos homens acolhidos na casa.</p>
+        <p>Aceitamos diversos materiais e objetos separados e higienizados no nosso galpão.</p>
+        <p>Traga a sua doação ao nosso Galpão: Av. Ovídio de Abreu, 419, Centro - Montes Claros/MG, 39400-068, de segunda à sexta entre 8h às 17h e aos sábados entre 8h às 12 horas. Ou deixar com algum de nossos voluntários nos supermercados Bretas e Villefort.</p>
+      </div>
+    ),
+  },
+
+  {
+    id: 22,
+    icon: tempo,
+    cat: "Tempo",
+    type: "Voluntariado",
+    title: "Toda ajuda é bem-vinda",
+    color: "blue",
+    paragraphs: (
+      <div className="grid gap-y-4">
+        <p>
+          Temos trabalhos externos para coleta de doações nos supermercados, e também atendemos acadêmicos com ofertas
+          de palestras, cursos e consultorias.
+        </p>
+
+        <p>
+          Temos parcerias nos mais diversos segmentos, tanto no âmbito público quanto no privado, além de outras
+          instituições do terceiro setor.
+        </p>
+
+        <p>
+          Entre em contato conosco:
+        </p>
+
+        <p>
+          Telefone: +55 (38) 98858-5246 <br />
+          Email:casaamorevida@outlook.com
+        </p>
+
+        <p>
+          Faça uma visita: <br/>
+          Galpão de reciclagem: Av. Ovídio de Abreu, 419, Centro - Montes Claros/MG, 39400-068
+          Sede Administrativa e casa de acolhimento: Rua Mestre Janjão, 85, São José - Montes Claros/MG, 39400-353
+        </p>
+      </div>
+    ),
+  },
+
+  {
+    id: 23,
+    icon: cabide,
+    cat: "Roupas",
+    type: "Campanha",
+    title: "Aqueça uma família",
+    paragraphs: (
+      <div className="grid gap-y-4">
+        <p>Tem uma peça de roupa conservada que não usa mais? Desapegue!</p>
+        <p>Traga a sua doação ao nosso Galpão: Av. Ovídio de Abreu, 419, Centro - Montes Claros/MG, 39400-068, de segunda à sexta entre 8h às 17h e aos sábados entre 8h às 12 horas. Ou deixar com algum de nossos voluntários nos supermercados Bretas e Villefort.</p>
+      </div>
+    ),
+  },
+
+  {
+    id: 24,
+    icon: money,
+    cat: "Financeira",
+    type: "Doações",
+    title: "Quer ajudar e não sabe como? Faça uma doação financeira!",
+    color: "blue",
+    paragraphs: (
+      <div className="grid gap-y-4">
+        <p>Selecione a transferência de sua preferência e faça sua doação. <br /> Qualquer valor é bem vindo!</p>
+
+        <p>
+          <li>Transfêrencia Bancária</li><br/>
+          <li>Banco do Brasil</li>
+          <li>Beneficiário: Casa de acolhimento amor e vida</li>
+          <li>Conta Corrente: 48094-0</li>
+          <li>Agência: 1479-6</li>
+          <li>CNPJ: 28.467.302/0001-93</li><br />
+          <li>PIX: 28.467.302/0001-93</li>
+        </p>
+      </div>
+    ),
+  },
 ];

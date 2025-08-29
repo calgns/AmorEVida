@@ -29,7 +29,7 @@ export default function Navbar() {
       </div>
 
       <div className="flex items-center">
-        <Button colorful={true} padding={"4px 24px"}>
+        <Button colorful={true} padding={"5px 24px"}>
           DOAR
         </Button>
 

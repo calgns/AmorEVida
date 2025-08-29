@@ -10,7 +10,7 @@ export const Sponsors = () => {
           Temos patrocinadores, colaboradores e apoiadores nos mais diversos segmentos, tanto no Âmbito público quanto
           no privado, além de outras instituições do terceiro setor.
         </p>
-        <Button url="./ajudar?id=24"colorful={true}>Saiba como ajudar</Button>
+        <Button url="./ajudar?id=24" colorful={true}>Saiba como ajudar</Button>
       </div>
 
       <Slider />

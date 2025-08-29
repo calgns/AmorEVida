@@ -5,7 +5,7 @@ export const Button = ({children, link=true, url="#", colorful=false, padding="8
   const btnStyle = colorful ? "btn-colored " : "btn-outlined ";
 
   return (
-    <button className={btnStyle} style={{padding}}>
-      {link ? <Link to={url}>{children}</Link> : children}
+    <button className={btnStyle}>
+      {link ? <Link to={url} style={{padding, display: "block"}} >{children}</Link> : children}
     </button>);
 };

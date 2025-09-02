@@ -23,7 +23,7 @@ export default function Contact() {
 
           <iframe
             title="Amor e vida localização"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.0966592747923!2d-43.86245262422559!3d-16.722028246481752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab54ad2b6045cb%3A0xd4ef28660f9f656!2sR.%20Mte.%20Janj%C3%A3o%2C%2085%20-%20S%C3%A3o%20Jos%C3%A9%2C%20Montes%20Claros%20-%20MG%2C%2039400-353!5e0!3m2!1spt-BR!2sbr!4v1683408506865!5m2!1spt-BR!2sbr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.904798101652!2d-43.86634122524798!3d-16.73160134672958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab54a642027c95%3A0x9b855e093d635c!2sR.%20Melo%20Viana%2C%20401%20-%20Morrinhos%2C%20Montes%20Claros%20-%20MG%2C%2039400-427%2C%20Brasil!5e0!3m2!1spt-BR!2sfr!4v1754738734048!5m2!1spt-BR!2sfr"
             className="w-full h-[25rem] sm:h-[20rem] md:w-[40rem] lg:w-[52rem] "
             style={{ border: 0 }}
             loading="lazy"

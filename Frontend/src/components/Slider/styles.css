@@ -31,7 +31,7 @@ body {
 .slider::before,
 .slider::after {
   content: "";
-  background-image: linear-gradient(to right, #ffffff 0%, #f7f7f700 100%);
+  background-image: linear-gradient(to right, #FAFAFa 0%, #fafafa7a 100%);
   position: absolute;
   top: 40px;
   z-index: 1;

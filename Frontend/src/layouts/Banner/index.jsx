@@ -15,7 +15,7 @@ const Banner = ({ img, titulo }) => {
         {pathname == "/" ? (
           <div className="button mt-5">
             <h2 className="text-2xl opacity-80 max-sm:mb-4 font-normal">Comover e Mover</h2>
-            <Button colorful={true} padding={"10px 28px"}>COMO AJUDAR</Button>
+            <Button colorful={true} padding={"10px 28px"} url="./ajudar">COMO AJUDAR</Button>
           </div>
         ) : (
           ""

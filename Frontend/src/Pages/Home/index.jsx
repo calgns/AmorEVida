@@ -44,7 +44,7 @@ export default function Home() {
 
           <div className="h-fit">
             <h3 className="text-xl w-64 pb-5 sm:text-2xl ">Toda ajuda é bem vinda!</h3>
-            <Button colorful={true}>Saiba mais</Button>
+            <Button url="./ajudar?id=22" colorful={true}>Saiba mais</Button>
           </div>
         </div>
       </div>

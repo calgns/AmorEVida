@@ -30,7 +30,7 @@ export default function Projects() {
           <div className="w-fit flex items-center flex-col ">
             <h3 className="text-xl pb-5">Recebemos materiais recicláveis diariamente</h3>
             {/* <Button>Saiba como</Button> */}
-            <Button colorful={true}>Saiba onde levar</Button>
+            <Button url="./ajudar?id=21" colorful={true}>Saiba onde levar</Button>
           </div>
         </div>
       </section>
